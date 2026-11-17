@@ -16,8 +16,8 @@
 ---
 
 這是 WOOW Cloudflare Tunnel 網頁管理介面的第三個版本，另外兩個是
-[Podman 版](https://github.com/WOOWTECH/Woow_cloudflare_tunnel_webgui)和
-[Home Assistant 外掛版](https://github.com/WOOWTECH/Woow_ha_cloudflare_tunnel_webgui)。
+[Podman 版](https://github.com/WOOWTECH/Woow_podman_cf_tunnel_webgui)和
+[Home Assistant 外掛版](https://github.com/WOOWTECH/Woow_ha_cf_tunnel_webgui)。
 三版的頁面一樣是五頁，三種連結方式也相同：
 
 | 頁面 | 功能 |

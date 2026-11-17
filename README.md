@@ -19,8 +19,8 @@
 ---
 
 This is the third edition of the WOOW Cloudflare Tunnel web GUI. The other two
-are the [Podman edition](https://github.com/WOOWTECH/Woow_cloudflare_tunnel_webgui)
-and the [Home Assistant add-on](https://github.com/WOOWTECH/Woow_ha_cloudflare_tunnel_webgui).
+are the [Podman edition](https://github.com/WOOWTECH/Woow_podman_cf_tunnel_webgui)
+and the [Home Assistant add-on](https://github.com/WOOWTECH/Woow_ha_cf_tunnel_webgui).
 It has the same five pages and the same three ways to connect:
 
 | Page | What it does |
@@ -41,6 +41,15 @@ pi-agents, give them names, and they are published in one action:
   DNS records are created with your Cloudflare login.
 - **Config (token)**: the routes of a token-mode tunnel live in the Cloudflare
   dashboard; the picker gives you the list to enter there.
+
+## Editions
+
+| | Podman | Home Assistant add-on | Kubernetes (k3s) |
+|---|---|---|---|
+| **WOOW** (aiot.woowtech.io) | [Woow_podman_cf_tunnel_webgui](https://github.com/WOOWTECH/Woow_podman_cf_tunnel_webgui) | [Woow_ha_cf_tunnel_webgui](https://github.com/WOOWTECH/Woow_ha_cf_tunnel_webgui) | [Woow_k3s_cf_tunnel_webgui](https://github.com/WOOWTECH/Woow_k3s_cf_tunnel_webgui) |
+| **Apporo** (www.apporo.ai) | [Apporo_podman_cf_tunnel_webgui](https://github.com/WOOWTECH/Apporo_podman_cf_tunnel_webgui) | [Apporo_ha_cf_tunnel_webgui](https://github.com/WOOWTECH/Apporo_ha_cf_tunnel_webgui) | [Apporo_k3s_cf_tunnel_webgui](https://github.com/WOOWTECH/Apporo_k3s_cf_tunnel_webgui) |
+
+Tutorial (HA add-on, Traditional Chinese): [Woow_ha_cf_tunnel_tutorial_site](https://github.com/WOOWTECH/Woow_ha_cf_tunnel_tutorial_site) · https://ha-cloudflare-tunnel-guide.woowtech.io
 
 ## How it works
 
