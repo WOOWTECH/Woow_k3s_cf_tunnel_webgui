@@ -1,6 +1,6 @@
 """Guided WOOW PaaS account and Security Access connection.
 
-Same flow and PaaS API as the HA add-on (Woow_ha_cloudflare_tunnel_webgui
+Same flow and PaaS API as the HA add-on (Woow_ha_cf_tunnel_webgui
 1.1.x): OAuth device authorization, per-route Access review, tunnel binding,
 anonymous external checks and release. Only this backend handles OAuth tokens
 or the tunnel credential; the browser gets navigation URLs and non-secret
